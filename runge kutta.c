@@ -1,15 +1,17 @@
+// Runge kutta method to find value of y for a particuar value of x in an ordinary differential equation
+
 #include<stdio.h>
 float func(float a,float b)
 {
-    return(a*a-b);
+    return(a*a-b);                           // define your own equation eg: dy/dx= x*x-y
 }
 int main()
 {
     printf("\n\n\t\t RUNGE KUTTA METHOD ");
     float x0,y0,h,xn;
-    printf("\n\n ENTER VALUE OF X0 AND Y0 : ");
+    printf("\n\n ENTER VALUE OF X0 AND Y0 : ");              // initial conditions
     scanf("%f%f",&x0,&y0);
-    printf("\n\n ENTER THE STEP SIZE : ");
+    printf("\n\n ENTER THE STEP SIZE : ");                   // step size
     scanf("%f",&h);
     printf("\n\n ENTER VALUE OF X AT WHICH YOY WANT TO FIND VALUE OF Y : ");
     scanf("%f",&xn);
