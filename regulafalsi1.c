@@ -1,14 +1,16 @@
+//Regula falsi method to find a root  eg: x*log(x)-1.2
+
 #include<stdio.h>
 #include<math.h>
 #define e 0.0001
 float func(float a)
 {
-    return (a*log10(a)-1.2);
+    return (a*log10(a)-1.2);             // write your own function here
 }
 int main()
 {
     printf("\n\n\t\t\t REGULA FALSI METHOD");
-    printf("\n\n GIVEN FUNCTION : X*COS(X/X-2)=0");
+    printf("\n\n GIVEN FUNCTION : X*COS(X/X-2)=0");     //write your own function here
     printf("\n\n\t\t\t-----------------------------------");
     printf("\n\t\t\t   ITERATIONS                ROOTS");
     printf("\n\n\t\t\t-------------------------------------");
