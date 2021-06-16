@@ -30,7 +30,7 @@ int main()
     {
         a[i][j]=a[i+1][j]-a[i][j];
     }
-    b[k+1]=a[0][1];
+    b[k+1]=a[0][1];            // array to store the top values of difference table which can be used to find valu of y later.
     }
     printf("\n");
     printf("\n enter the value of x at which you want to find value of y : ");
